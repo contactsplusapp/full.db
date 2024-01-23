@@ -1,4 +1,4 @@
-(defproject fullcontact/full.db "1.0.7"
+(defproject fullcontact/full.db "1.0.8"
   :description "DB sugar (Korma + hikariCP + core.async)."
   :url "https://github.com/contactsplusapp/full.db"
   :license {:name "Eclipse Public License - v 1.0"
@@ -11,7 +11,7 @@
                         ["snapshots" {:url "https://contactsplus.jfrog.io/artifactory/libs-snapshot-local" :sign-releases false}]]
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [korma "0.4.3"]
-                 [hikari-cp "1.8.0"]
+                 [hikari-cp "2.14.0"]
                  [fullcontact/full.core "1.1.3" :exclusions [org.clojure/clojurescript]]
                  [fullcontact/full.metrics "0.13.1"]
                  [fullcontact/full.async "1.1.1"]
